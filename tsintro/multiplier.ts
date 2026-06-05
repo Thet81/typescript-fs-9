@@ -4,4 +4,7 @@ const multiplier = (a : number,b : number,printText : string)=> {
 	console.log(printText, a * b);
 }
 
-multiplier('how about a string',4,'Multiplied number 2 and 4, gives us : ')
+const a : number = Number(process.argv[2]);
+const b : number = Number(process.argv[3]);
+
+multiplier(a,b,'The result is :');

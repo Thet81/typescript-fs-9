@@ -1,6 +1,6 @@
 // calculator.ts
 
-type Operation = 'multiply' | 'add' | 'divide';
+export type Operation = 'multiply' | 'add' | 'divide';
 type Result = string | number;
 
 const calculator = (a:number, b:number, op : Operation) : number => {

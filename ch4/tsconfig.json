@@ -3,12 +3,12 @@
   "compilerOptions": {
     // File Layout
     // "rootDir": "./src",
-    // "outDir": "./dist",
+    "outDir": "./build/",
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
-    "target": "esnext",
+    "module": "commonjs",
+    "target": "ES6",
     "noEmit":true,
     "esModuleInterop":true,
     "allowImportingTsExtensions":true,
@@ -35,11 +35,11 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     // "noPropertyAccessFromIndexSignature": true,
-
+   
     // Recommended Options
     "strict": true,
     "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
+    // "verbatimModuleSyntax": true,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
